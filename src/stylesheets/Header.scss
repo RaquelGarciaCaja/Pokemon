@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  &--logo {
+    height: 130px;
+    width: 300px;
+    display: flex;
+    align-content: center;
+  }
+}
